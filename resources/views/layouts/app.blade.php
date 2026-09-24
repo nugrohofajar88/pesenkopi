@@ -62,9 +62,10 @@
             },
         };
     </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <style>[x-cloak] { display: none !important; }</style>
 </head>
-<body class="bg-background font-sans text-on-surface antialiased min-h-screen flex flex-col" x-data="{ cloak: false }">
+<body class="bg-background font-sans text-on-surface antialiased min-h-screen flex flex-col">
 
     <header class="sticky top-0 z-40 bg-surface/95 backdrop-blur-xl border-b border-outline-variant/40">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between gap-3">
